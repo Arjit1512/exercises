@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            background-color: rgb(10, 10, 31);
+            color: white;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        #clock {
+            background-color: whitesmoke;
+            height: 250px;
+            width: 300px;
+            display: flex;
+            color: rgb(204, 11, 11);
+            font-weight: 500;
+            font-size: 2rem;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            border-radius: 2rem;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            position: relative;
+            top:11%;
+            right:13.6%;
+            background-color: aliceblue;
+            z-index: 100;
+            border-radius: 1.2rem;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="clock">
+    </div>
+    <audio id="alarmSound" src="alarm.wav" preload="auto"></audio>
+    <button id="setAlarmBtn">Set Alarm</button>
+
+
+
+
+    <script src="Exercises.js" charset="utf-8"></script>
+</body>
+
+
+</html>
